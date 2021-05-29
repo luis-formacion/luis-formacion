@@ -1,0 +1,37 @@
+p {
+    color: rgb(12, 92, 158); /* Color de texto */
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+  }
+h1 {
+    color: rgb(12, 22, 158); /* Color de h1 */
+    font-family: Inconsolata, Verdana, Geneva, Tahoma, sans-serif;
+  }
+body {
+    color: rgb(12, 92, 158); /* Color de texto */
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(192, 222, 250);
+    background: url(pattern.png);
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  /* Espacio de relleno en celdas y cabeceras */
+  td,
+  th {
+    padding: 10px;
+  }
+  /* Modificación de estilos en cabeceras */
+  th {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  /* Modificación de estilos en celdas */
+  td {
+    text-align: center;
+    border-bottom: 2px solid #111;
+    color: #333;
+    font-size: 18px;
+  }
