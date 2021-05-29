@@ -10,7 +10,7 @@ body {
     color: rgb(12, 92, 158); /* Color de texto */
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(192, 222, 250);
-    background: url(img/pattern.png);
+    background: url(../img/pattern.png);
   }
 
   table {
