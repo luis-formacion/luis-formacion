@@ -1,55 +1,74 @@
 /* Seccion 1 -------Encabezado------------------*/
 
 header #logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    text-align:center;
-    line-height: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 60px;
 }
-header center p{
-    text-align: center;/*la p y esto añadido en V2*/
-    width:42px;
-    line-height: 42px;
-    border-radius: 100%;
-    background:#ccc;
-    color:white;
+header center p {
+  text-align: center; /*la p y esto añadido en V2*/
+  width: 42px;
+  line-height: 42px;
+  border-radius: 100%;
+  background: #ccc;
+  color: white;
 }
-header center#icono1 p{
-    background: blue;
+header center#icono1 p {
+  background: blue;
 }
-header center#icono2 p{
-    background: green;
+header center#icono2 p {
+  background: green;
 }
-header center#icono3 p{
-    background: red;
+header center#icono3 p {
+  background: red;
 }
 /* Seccion 2 -----------Navegación--------------*/
 
-nav ul li{
-    padding:10px;
-    text-align: center;
+nav ul li {
+  padding: 10px;
+  text-align: center;
 }
-nav ul li a{
-    display:block;
-    background: rgb(4, 19, 46);
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    line-height: 48px;
-    text-decoration: none;
+nav ul li a {
+    display: block;
+  background: rgb(4, 19, 46);
+  font-family: "Verdana";
+  color: white;
+  line-height: 48px;
+  text-decoration: none;
 }
-nav ul li a:hover{
-background: rgb(20, 44, 88);
+nav ul li a:hover {
+  background: rgb(20, 44, 88);
 }
 
-    nav ul li a:active{
-        background: rgb(75, 127, 223);
-    }
+nav ul li a:active {
+  background: rgb(75, 127, 223);
+}
 /* Seccion 3 -------------------------*/
 
+#seccion3 center{
+    align-content: center;
+    padding: 20px;
+}
+
+#seccion3 img{
+    border-radius: 15%;
+    width: 200px;
+    height: 170px;
+    padding: 10px;
+}
+
+#seccion3 h1{
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    padding: 10px;
+}
+#seccion3 p{
+   padding: 10px;
+}
 
 /* Seccion 4 -------------------------*/
 
 
+
 /* Seccion 5 -----Pie--------------------*/
-
-
