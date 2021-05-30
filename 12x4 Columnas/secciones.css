@@ -13,6 +13,15 @@ header center{
     background:#ccc;
     color:white;
 }
+header center#icono1{
+    background: blue;
+}
+header center#icono2{
+    background: green;
+}
+header center#icono3{
+    background: red;
+}
 /* Seccion 2 -----------Navegación--------------*/
 
 
