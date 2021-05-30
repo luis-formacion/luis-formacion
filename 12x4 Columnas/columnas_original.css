@@ -1,0 +1,50 @@
+/* GLOBAL ----------------------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: sans-serif;
+  box-sizing: border-box; /* Para que el tamaño de la caja incluya el borde*/
+}
+.contenedor {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.fila {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  clear: both; /*Impide que las cajas ocupen lugares de la fila superior vacios*/
+  display: table; /*Lo mismo con el texto*/
+}
+/* Estilos comunes a las "col-" */
+[class*="col-"] {
+  float: left;
+  border: 1px solid black;
+  padding: 10px; 
+}
+  .col-12 {width: 100%;}
+  .col-11 {width: 91.66666667%;}
+  .col-10 {width: 83.33333333%;}
+  .col-9 {width: 75%;}
+  .col-8 {width: 66.66666667%;}
+  .col-7 {width: 58.33333333%;}
+  .col-6 {width: 50%;}
+  .col-5 {width: 41.66666667%;}
+  .col-4 {width: 33.33333333%;}
+  .col-3 {width: 25%;}
+  .col-2 {width: 16.66666667%;}
+  .col-1 {width: 8.33333333%;}
+  .col-0 {display: none;}
+
