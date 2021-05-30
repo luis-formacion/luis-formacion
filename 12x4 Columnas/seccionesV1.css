@@ -1,0 +1,36 @@
+/* Seccion 1 -------Encabezado------------------*/
+
+header #logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    line-height: 60px;
+}
+header center{
+    width:42px;
+    line-height: 42px;
+    border-radius: 100%;
+    background:#ccc;
+    color:white;
+}
+header center#icono1{
+    background: blue;
+}
+header center#icono2{
+    background: green;
+}
+header center#icono3{
+    background: red;
+}
+/* Seccion 2 -----------Navegación--------------*/
+
+
+/* Seccion 3 -------------------------*/
+
+
+/* Seccion 4 -------------------------*/
+
+
+/* Seccion 5 -----Pie--------------------*/
+
+

@@ -31,8 +31,8 @@
   /* Estilos comunes a las "col-" */
   [class*="col-"] {
     float: left;
-    border: 1px solid black;
-    padding: 20px;
+    /* border: 1px solid black;Anulado desde V2*/
+    /*padding: 20px; Anulado desde V2*/
   }
   /*Pantalla de escritorio grande (large) => lg */
   
