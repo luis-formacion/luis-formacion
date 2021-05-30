@@ -136,3 +136,15 @@ nav ul li a:active {
   border: 0;
 }
 /* Seccion 5 -----Pie--------------------*/
+
+footer{
+  padding:20px 10px;
+}
+footer div{
+
+  background: rgb(9, 29, 56);
+  text-align: center;
+  line-height: 50px;
+  color: white;
+
+}
