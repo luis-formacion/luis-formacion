@@ -5,15 +5,9 @@
     padding: 0px;
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box; /* Para que el tamaño de la caja incluya el borde*/
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    font-family: sans-serif;
-    box-sizing: border-box; /* Para que el tamaño de la caja incluya el borde*/
-  }
   .contenedor {
     position: relative;
     margin: auto;
