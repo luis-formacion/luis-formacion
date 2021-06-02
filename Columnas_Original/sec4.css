@@ -1,0 +1,81 @@
+/* Sección 4 ------------------------------------------------------ */
+
+#seccion4 aside ul li{
+    background: rgb(178, 199, 213);
+    padding: 10px;
+    margin: 2px 10px;
+    list-style: square;
+    list-style-position: inside;
+}
+#seccion4 aside ul li a{
+    text-decoration: none;
+}
+
+#seccion4 article h2 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 35px;
+text-align: center;
+}
+
+#seccion4 article p img {
+    float: left;
+    margin: 10px;
+}
+#seccion4 article p{
+    margin: 5px 20px;
+font-size: 14px;
+text-align: justify;
+}
+
+#seccion4 aside#der{
+    background: rgb(240, 233, 233);
+}
+
+
+#seccion4 aside#der h2{
+color:white;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(53, 85, 138);
+}
+
+#seccion4 aside#der input{
+    width: 100%;
+    padding:10px;
+    margin: 5px 0px;
+
+}
+
+#seccion4 aside#der input[type="text"]{
+    background: url(img/USER.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+#seccion4 aside#der input[type="password"]{
+    background: url(img/pass.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+#seccion4 aside#der input[type="submit"]{
+background: rgb(53, 85, 138);
+color: white;
+width:50%;
+margin: 0 25%;
+border-top: 1px solid rgb(247, 244, 244);
+border-left:1px solid rgb(247, 243, 243);
+border-right:1px solid rgb(10, 10, 10);
+border-bottom:1px solid rgb(15, 15, 15);
+}
+#seccion4 aside#der input[type="submit"]:hover{
+    background: rgb(106, 140, 195);
+    text-shadow: 1px 1px rgb(53, 85, 138);
+    border-top: 1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid cornsilk;
+    border-bottom:1px solid cornsilk;
+}
+#seccion4 aside#der input[type="submit"]:active{
+    background: rgb(178, 199, 213);
+}

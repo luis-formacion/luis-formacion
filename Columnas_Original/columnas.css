@@ -49,7 +49,11 @@
 .col-lg-10 {width: 83.33333333%;}
 .col-lg-11 {width: 91.66666667%;}
 .col-lg-12 {width: 100%;}
+
+#seccion4 article p img{width: 70%;}
+
 }
+
 
 /* Pantalla de escritorio media 'medium' => md */
 
@@ -67,6 +71,7 @@
     .col-md-10 {width: 83.33333333%;}
     .col-md-11 {width: 91.66666667%;}
     .col-md-12 {width: 100%;}
+    #seccion4 article p img{width: 50%;}
 }
 
 /*  Pantalla para tablet 'small' => sm */
@@ -85,6 +90,9 @@
 .col-sm-10 {width: 83.33333333%;}
 .col-sm-11 {width: 91.66666667%;}
 .col-sm-12 {width: 100%;}
+#seccion4 article p img{
+    width: 100%;
+    margin-bottom: 20px;}
 }
 
 /* Pantalla de teléfono 'xtra small' => xs*/
@@ -103,4 +111,8 @@
 .col-xs-10 {width: 83.33333333%;}
 .col-xs-11 {width: 91.66666667%;}
 .col-xs-12 {width: 100%;}
+#seccion4 article p img{
+    width: 100%;
+    margin-bottom: 20px;
+}
 }
