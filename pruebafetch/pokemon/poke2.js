@@ -35,11 +35,15 @@ function actualiza() {
       let trasero = document.getElementById("trasero");
 
       frente.innerHTML = `
-      <a href="${data.sprites.front_default}" onMouseOver="document.MyImage.src='${data.sprites.front_shiny}';" onMouseOut="document.MyImage.src='${data.sprites.front_default}';">
+      <a href="${data.sprites.front_default}" 
+      onMouseOver="document.MyImage.src='${data.sprites.front_shiny}';" 
+      onMouseOut="document.MyImage.src='${data.sprites.front_default}';">
       <img src="${data.sprites.front_default}" name="MyImage"></a>`
 
       trasero.innerHTML = `
-      <a href="${data.sprites.back_default}" onMouseOver="document.MyImage2.src='${data.sprites.back_shiny}';" onMouseOut="document.MyImage2.src='${data.sprites.back_default}';">
+      <a href="${data.sprites.back_default}" 
+      onMouseOver="document.MyImage2.src='${data.sprites.back_shiny}';" 
+      onMouseOut="document.MyImage2.src='${data.sprites.back_default}';">
       <img src='${data.sprites.back_default}'name="MyImage2"/></a>`;
 
     })
